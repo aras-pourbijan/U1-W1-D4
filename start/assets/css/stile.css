@@ -8,6 +8,7 @@ body{
     
     font-family: 'Poppins', sans-serif;
     padding: 5%;
+    line-height: 1.4rem;
 
 }
 
@@ -59,12 +60,26 @@ article{
 }
 
 article h1{
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 500;
+    line-height: 1.5em;
 
 }
 
+i{
+    color: gray;
+}
+
+strong{
+    color:#AB679C;
+}
 /* ELEMENTI NEL MAIN - ARTICLE */
+code{
+    background-color: rgb(231, 226, 226);
+    border-radius: 5px;
+    border: gray solid 1px;
+}
+
 
 /* TABELLE */
 
@@ -77,7 +92,7 @@ footer{
     background: linear-gradient(0deg, rgba(46,52,55,1) 0%, rgba(3,84,103,1) 100%);
     color: white;
     text-align: center;
-    line-height: 1.4rem;
+    
     padding: 20px;
    
 }
