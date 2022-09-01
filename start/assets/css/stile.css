@@ -8,7 +8,7 @@ body{
     
     font-family: 'Poppins', sans-serif;
     padding: 5%;
-    line-height: 1.4rem;
+    line-height: 1.5rem;
 
 }
 
@@ -63,12 +63,17 @@ article h1{
     font-size: 2rem;
     font-weight: 500;
     line-height: 1.5em;
-
 }
 
 i{
     color: gray;
 }
+
+ul,ol{
+    margin-block: 15px;
+    padding-left: 20px;
+}
+
 
 strong{
     color:#AB679C;
@@ -83,6 +88,30 @@ code{
 
 /* TABELLE */
 
+caption{
+    font-weight: bold;
+    font-style: italic;
+}
+
+table{
+    width: 90%;
+    line-height: 300%;    
+}
+
+
+thead{
+    background-color:#2f54e7;
+    color: white;
+}
+
+
+tr:nth-child(even) {background: #CCC}
+
+iframe{
+    border-radius: 10%;
+    margin: auto;
+}
+
 /* FORM */
 
 /* ELEMENTI NELL' ASIDE */
@@ -92,7 +121,6 @@ footer{
     background: linear-gradient(0deg, rgba(46,52,55,1) 0%, rgba(3,84,103,1) 100%);
     color: white;
     text-align: center;
-    
     padding: 20px;
    
 }
