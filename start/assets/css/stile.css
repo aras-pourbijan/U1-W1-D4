@@ -7,18 +7,25 @@ body{
     background-image: url(../img/sfondo.png); 
     
     font-family: 'Poppins', sans-serif;
-    padding: 5%;
+    
     line-height: 1.5rem;
+    padding: 5%;
+    text-align: center;
 
 }
 
 header,main,footer{
-    box-shadow: 0px 0px 2px rgb(0 0 0 / 70%);
+    box-shadow: 0px 2px 5px rgb(0 1 3 / 70%);
 } 
 
 hr{
     opacity: 0;
 }
+
+p{
+    padding-block: 20px;
+}
+
 
 /* HEADER */
 
@@ -30,7 +37,13 @@ header{
     color: white;
     text-transform:uppercase;
     font-weight: bold; 
+    padding-bottom: 10px;
     
+}
+
+header ul{
+    list-style-type: none;
+    line-height: 0.7rem;
 }
 
 
@@ -38,11 +51,14 @@ header{
 header a:link{
     color: white;
     text-decoration: none;
-
 }
 
 header *{
-    padding: 5px;
+    padding: 6px;
+}
+
+img{
+    padding-top: 20px;
 }
 
 
@@ -51,8 +67,7 @@ main{
     background-color: white;
     width: 90%;
     padding: 5%;
-    
-   
+    text-align: left;
 }
 
 article{
@@ -65,19 +80,23 @@ article h1{
     line-height: 1.5em;
 }
 
-i{
+#date{
+    padding-block: 10px;
     color: gray;
 }
 
 ul,ol{
     margin-block: 15px;
-    padding-left: 20px;
+    padding-left: 30px;
+    line-height: 1.7rem;
 }
 
 
 strong{
     color:#AB679C;
+    font-weight: bold;
 }
+
 /* ELEMENTI NEL MAIN - ARTICLE */
 code{
     background-color: rgb(231, 226, 226);
@@ -96,25 +115,75 @@ caption{
 table{
     width: 90%;
     line-height: 300%;    
+    text-align: center;
+    padding:10px
+    
+    
 }
 
 
 thead{
-    background-color:#2f54e7;
+    background-color:rgb(0, 168, 247);
     color: white;
 }
 
 
 tr:nth-child(even) {background: #CCC}
 
+#last--tr{
+    border-bottom: #2f54e7 solid 1px;
+}
+
+main a{
+    color: rgb(0, 168, 247);
+}
+
 iframe{
-    border-radius: 10%;
-    margin: auto;
+    border-radius: 30px;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
 }
 
 /* FORM */
 
+section{
+    margin-block: 30px  ;
+    background-color:#CCC;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+input, button{
+    margin: 0%;
+    padding: 0;
+}
+button{
+    color: white;
+    background-color:rgb(0, 168, 247);
+}
 /* ELEMENTI NELL' ASIDE */
+
+section h2{
+    font-size: large;
+    font-weight: bold;
+}
+aside h2{
+    font-size: large;
+    font-weight: bold;
+}
+
+aside div{
+    margin-block: 30px  ;
+    background-color:#CCC;
+    text-align: left;
+    padding: 20px 20px;
+    line-height: 0.7rem;
+    
+}
+.calender{
+    text-align: right;
+}
 
 /* FOOTER */
 footer{
@@ -122,7 +191,7 @@ footer{
     color: white;
     text-align: center;
     padding: 20px;
-   
+    
 }
 
 footer :link{

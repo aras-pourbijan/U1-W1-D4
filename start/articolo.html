@@ -18,34 +18,32 @@
   </head>
   <body>
     <header>
-      <middle>
-        <div>
-          <img
-            src="assets/img/logo.svg"
-            alt="logo del blog"
-            width="250"
-            height="60"
-          />
-          <p>Epicode - Il blog dei developers</p>
-        </div>
-        <nav>
-          <ul>
-            <li><a href="index.html" title="Home Page">Home</a></li>
-            <li>
-              <a
-                href="articoli.html"
-                title="Elenco degli articoli tecnici pubblicati"
-                >Articoli</a
-              >
-            </li>
-            <li>
-              <a href="contatti.html" title="Candidati inviando un tuo cv"
-                >Lavora con noi</a
-              >
-            </li>
-          </ul>
-        </nav>
-      </middle>
+      <div>
+        <img
+          src="assets/img/logo.svg"
+          alt="logo del blog"
+          width="250"
+          height="60"
+        />
+        <p>Epicode - Il blog dei developers</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html" title="Home Page">⇒Home⇐</a></li>
+          <li>
+            <a
+              href="articoli.html"
+              title="Elenco degli articoli tecnici pubblicati"
+              >⇒Articoli⇐</a
+            >
+          </li>
+          <li>
+            <a href="contatti.html" title="Candidati inviando un tuo cv"
+              >⇒Lavora con noi⇐</a
+            >
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <hr />
@@ -53,12 +51,13 @@
     <main>
       <article>
         <h1>Come creare un template per i post</h1>
-        <p>
-          <i class="fa-solid fa-square-pen"> di Mario Rossi -</i>
-          <span>
-            <i class="fa-solid fa-clock"></i> pubblicato il 25-10-2020</span
-          >
-        </p>
+        <div id="date">
+          <p>
+            <i class="fa-solid fa-square-pen"> </i>di Mario Rossi -<span>
+              <i class="fa-solid fa-clock"></i> pubblicato il 25-10-2020</span
+            >
+          </p>
+        </div>
 
         <p>
           La prima cosa da fare è suddividere in blocchi logici la pagina,
@@ -134,7 +133,7 @@
               <td>80&percnt;</td>
               <td>51&percnt;</td>
             </tr>
-            <tr>
+            <tr id="last--tr">
               <td>2012</td>
               <td>100&percnt;</td>
               <td>76&percnt;</td>
@@ -155,8 +154,8 @@
         </p>
 
         <iframe
-          width="300"
-          height="300"
+          width="350"
+          height="200px"
           src="https://www.youtube.com/embed/dvOvHXruEDM"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -193,8 +192,8 @@
             title="Passaggi guidati per validare correttamente tutto il codice sviluppato"
             >Validare il codice HTML</a
           >
-          <p>Categoria: develop</p>
-          <p>Data: 18-9-2020</p>
+          <p><i class="fa-sharp fa-solid fa-tag"></i>Categoria: develop</p>
+          <p class="calender"><i class="fa-sharp fa-solid fa-calendar-days"></i> Data: 18-9-2020</p>
         </div>
 
         <div>
@@ -203,8 +202,10 @@
             title="Passaggi guidati per controllare e correggere tutto il codice sviluppato"
             >Correggere la sintassi</a
           >
-          <p>Categoria: develop</p>
-          <p>Data: 16-9-2020</p>
+          <p><i class="fa-sharp fa-solid fa-tag"></i> Categoria: develop</p>
+          <p class="calender">
+            <i class="fa-sharp fa-solid fa-calendar-days"></i> Data: 16-9-2020
+          </p>
         </div>
 
         <div>
@@ -213,8 +214,14 @@
             title="Consigli ed approcci per ridurre il peso della pagina"
             >Meno Kb nella pagina</a
           >
-          <p>Categoria: ottimizzazione</p>
-          <p>Data: 30-9-2020</p>
+          <p>
+            <i class="fa-sharp fa-solid fa-tag"></i
+            ></i> Categoria:
+            ottimizzazione
+          </p>
+          <p class="calender">
+            <i class="fa-sharp fa-solid fa-calendar-days"></i> Data: 30-9-2020
+          </p>
         </div>
       </aside>
     </main>
